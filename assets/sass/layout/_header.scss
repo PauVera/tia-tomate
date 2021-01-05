@@ -1,0 +1,22 @@
+.header{
+    .header_navbar{
+        background-color: $white;
+        img{
+            margin:1rem 0 0 7rem;
+            width: 20%;
+            vertical-align: middle;
+        }
+    }
+    .header_titulo{
+        background-color: $jelly-bean;
+        height: $x-large*10;
+        margin: auto 0;
+        h1{
+            padding-top: $x-large*4;
+        }
+        .display{
+            display:block;            
+        }
+    }
+    
+}
