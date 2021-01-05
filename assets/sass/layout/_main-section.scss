@@ -1,27 +1,25 @@
 .main{
     margin: 0 auto;
     text-align: center;
-    img{
+    &_img{
         width: 90%;
         margin-top: 6rem;
     }
-    div {
+    &_wrapper-parrafo {
         padding-bottom: 1rem;
         p{
             margin: 0 $x-large*3 2rem $x-large*3;        
         }
     } 
-    .espacio{
-        padding: 1.5rem;
-    }
 
-    .about{
-        img{
+    &_about{
+        &_img{
             width: 35%;
+            margin-top: 3rem;
         }
     }
 
-    .call-to-action{
+    &_call-to-action{
         padding-bottom: 4rem;
         h2{
             font-size: $x-large*0.8;

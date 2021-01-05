@@ -78,22 +78,26 @@ body {
   background-color: #E56353;
 }
 
-.header .header_navbar {
+.espacio {
+  padding: 1.5rem;
+}
+
+.header_navbar {
   background-color: #FFF;
 }
-.header .header_navbar img {
+.header_navbar img {
   margin: 1rem 0 0 7rem;
   width: 20%;
   vertical-align: middle;
 }
-.header .header_titulo {
+.header_titulo {
   height: 45rem;
   margin: auto 0;
 }
-.header .header_titulo h1 {
+.header_titulo h1 {
   padding-top: 18rem;
 }
-.header .header_titulo .display {
+.header_titulo .display {
   display: block;
 }
 
@@ -101,26 +105,24 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-.main img {
+.main_img {
   width: 90%;
   margin-top: 6rem;
 }
-.main div {
+.main_wrapper-parrafo {
   padding-bottom: 1rem;
 }
-.main div p {
+.main_wrapper-parrafo p {
   margin: 0 13.5rem 2rem 13.5rem;
 }
-.main .espacio {
-  padding: 1.5rem;
-}
-.main .about img {
+.main_about_img {
   width: 35%;
+  margin-top: 3rem;
 }
-.main .call-to-action {
+.main_call-to-action {
   padding-bottom: 4rem;
 }
-.main .call-to-action h2 {
+.main_call-to-action h2 {
   font-size: 3.6rem;
 }
 
