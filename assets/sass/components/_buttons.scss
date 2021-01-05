@@ -5,4 +5,8 @@
     border-style: solid;
     border-width: 1px;
     border-color: $granite-gray;
+    &:hover{
+        background-color: $gray;
+        color: $white;
+    }
 }

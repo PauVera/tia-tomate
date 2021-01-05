@@ -5,56 +5,54 @@ body {
     font-weight: $text-regular;
 }
 
-.txt-md{
-    font-size: $medium;
-}
-  
-.txt-lg{
-    font-size: $large;
-}
-  
-.txt-xl{
-    font-size: $x-large;
-}
-  
-// Clases de ayuda para alinear texto
+.txt{
+    &--md{
+        font-size: $medium;
+    }
+      
+    &--lg{
+        font-size: $large;
+    }
+      
+    &--xl{
+        font-size: $x-large;
+    }
 
-.txt-center{ 
-    text-align: center; 
-}
+    //Clases que ayudan a alinear el texto
+    &--center{ 
+        text-align: center; 
+    }
+    
+    &--left{ 
+        text-align: left; 
+    }
+    
+    &--right{ 
+        text-align: right; 
+    }
+    // Clases de ayuda para cambiar el color de texto
 
-.txt-left{ 
-    text-align: left; 
-}
+    &--white{ 
+        color: $white; 
+    }
 
-.txt-right{ 
-    text-align: right; 
-}
+    &--dark{ 
+        color: $granite-gray; 
+    }
 
+    // Clases de ayuda para cambiar el estilo de texto
 
-// Clases de ayuda para cambiar el color de texto
+    &--light{
+        font-weight: $text-light;
+    }
 
-.txt-white{ 
-    color: $white; 
-}
+    &--regular{
+        font-weight: $text-regular;
+    }
 
-.txt-dark{ 
-    color: $granite-gray; 
-}
-
-
-// Clases de ayuda para cambiar el estilo de texto
-
-.txt-light{
-    font-weight: $text-light;
-}
-
-.txt-regular{
-    font-weight: $text-regular;
-}
-
-.txt-bold{
-    font-weight: $text-bold;
+    &--bold{
+        font-weight: $text-bold;
+    }
 }
 
 // Clases de ayuda para cambiar mayúsculas en el texto

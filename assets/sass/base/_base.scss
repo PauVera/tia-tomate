@@ -3,18 +3,19 @@
     margin: auto;
 }
 
-.bg-dark{
+.bg{
+    &--dark{
     background-color: $taupe-gray;
-}
-
-.bg-snow{
-    background-color: $snow;
-}
-
-.bg-footer{
-    background-color: $granite-gray;
-}
-
-.bg-jelly-bean{
-    background-color: $jelly-bean;
+    }
+    &--snow{
+        background-color: $snow;
+    }
+    
+    &--footer{
+        background-color: $granite-gray;
+    }
+    
+    &--jelly-bean{
+        background-color: $jelly-bean;
+    }
 }
