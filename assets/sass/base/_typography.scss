@@ -6,51 +6,51 @@ body {
 }
 
 .txt{
-    &--md{
+    &-md{
         font-size: $medium;
     }
       
-    &--lg{
+    &-lg{
         font-size: $large;
     }
       
-    &--xl{
+    &-xl{
         font-size: $x-large;
     }
 
     //Clases que ayudan a alinear el texto
-    &--center{ 
+    &-center{ 
         text-align: center; 
     }
     
-    &--left{ 
+    &-left{ 
         text-align: left; 
     }
     
-    &--right{ 
+    &-right{ 
         text-align: right; 
     }
     // Clases de ayuda para cambiar el color de texto
 
-    &--white{ 
+    &-white{ 
         color: $white; 
     }
 
-    &--dark{ 
+    &-dark{ 
         color: $granite-gray; 
     }
 
     // Clases de ayuda para cambiar el estilo de texto
 
-    &--light{
+    &-light{
         font-weight: $text-light;
     }
 
-    &--regular{
+    &-regular{
         font-weight: $text-regular;
     }
 
-    &--bold{
+    &-bold{
         font-weight: $text-bold;
     }
 }

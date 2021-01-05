@@ -22,37 +22,37 @@ body {
   font-weight: 400;
 }
 
-.txt--md {
+.txt-md {
   font-size: 1.125rem;
 }
-.txt--lg {
+.txt-lg {
   font-size: 2.5rem;
 }
-.txt--xl {
+.txt-xl {
   font-size: 4.5rem;
 }
-.txt--center {
+.txt-center {
   text-align: center;
 }
-.txt--left {
+.txt-left {
   text-align: left;
 }
-.txt--right {
+.txt-right {
   text-align: right;
 }
-.txt--white {
+.txt-white {
   color: #FFF;
 }
-.txt--dark {
+.txt-dark {
   color: #686963;
 }
-.txt--light {
+.txt-light {
   font-weight: 200;
 }
-.txt--regular {
+.txt-regular {
   font-weight: 400;
 }
-.txt--bold {
+.txt-bold {
   font-weight: 700;
 }
 
@@ -65,16 +65,16 @@ body {
   margin: auto;
 }
 
-.bg--dark {
+.bg-dark {
   background-color: #91918D;
 }
-.bg--snow {
+.bg-snow {
   background-color: #FAFAFA;
 }
-.bg--footer {
+.bg-footer {
   background-color: #686963;
 }
-.bg--jelly-bean {
+.bg-jelly-bean {
   background-color: #E56353;
 }
 
@@ -140,7 +140,7 @@ body {
   border-color: #686963;
 }
 .btn:hover {
-  background-color: #BABABA;
+  background-color: #686963;
   color: #FFF;
 }
 

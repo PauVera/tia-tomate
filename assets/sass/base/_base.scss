@@ -4,18 +4,18 @@
 }
 
 .bg{
-    &--dark{
+    &-dark{
     background-color: $taupe-gray;
     }
-    &--snow{
+    &-snow{
         background-color: $snow;
     }
     
-    &--footer{
+    &-footer{
         background-color: $granite-gray;
     }
     
-    &--jelly-bean{
+    &-jelly-bean{
         background-color: $jelly-bean;
     }
 }
