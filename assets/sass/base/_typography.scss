@@ -1,0 +1,68 @@
+body {
+    font-family: $font-family;
+    color: $granite-gray;
+    font-size: $medium;
+    font-weight: $text-regular;
+}
+
+.txt-md{
+    font-size: $medium;
+}
+  
+.txt-lg{
+    font-size: $large;
+}
+  
+.txt-xl{
+    font-size: $x-large;
+}
+  
+.txt-xxl{
+    font-size: $xx-large;
+}
+  
+// Clases de ayuda para alinear texto
+
+.txt-center{ 
+    text-align: center; 
+}
+
+.txt-left{ 
+    text-align: left; 
+}
+
+.txt-right{ 
+    text-align: right; 
+}
+
+
+// Clases de ayuda para cambiar el color de texto
+
+.txt-white{ 
+    color: $white; 
+}
+
+.txt-dark{ 
+    color: $granite-gray; 
+}
+
+
+// Clases de ayuda para cambiar el estilo de texto
+
+.txt-light{
+    font-weight: $text-light;
+}
+
+.txt-regular{
+    font-weight: $text-regular;
+}
+
+.txt-bold{
+    font-weight: $text-bold;
+}
+
+// Clases de ayuda para cambiar mayúsculas en el texto
+
+.upper{ 
+    text-transform: uppercase; 
+}
